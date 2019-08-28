@@ -1,0 +1,82 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 05-Apr-2019, 02:11:40
+    Author     : Nathasha
+*/
+
+*
+{
+	margin:0;
+	padding:0;
+
+}
+header
+{
+	background-image:linear-gradient(rgba(0,0,0,0.6) , rgba(0,0,0,0.6)) , url(images/books.jpg);
+	background-size: cover;
+	background-position:center;
+	height: 100vh;
+
+}
+
+body
+{
+	font-family: "Roboto",san-serif;
+}
+.row
+{
+	max-width: 1200px;
+	margin:auto;
+}
+.hero
+{
+	position:absolute;
+	width:1200px;
+	margin-left: 0;
+	margin-top:0;
+}
+h1
+{
+	color:white;
+	text-transform:uppercase;
+	font-size:70px;
+	text-align: center;
+	margin-top: 200px;
+}
+.button
+{
+	margin-top:30px;
+	margin-left: 510px;
+
+}
+.btn
+{
+	border:1px solid white;
+	padding:10px 60px;
+	color:white;
+	text-decoration: none;
+	margin-right: 5px;
+	font-size:13px;
+	text-transform: uppercase;
+	font-family: "Roboto",san-serif;
+	font-weight: bold;
+	border-radius: 30px !important;
+
+}
+.btn:hover
+{
+	background-color: #34b3a0;
+	transition: all 0.5s ease-in;
+}
+.btn-one
+{
+	padding:10px 65px;
+}
+.btn-three
+{
+	padding: 10px 75px;
+}

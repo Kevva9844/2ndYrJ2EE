@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<style>
+
+		body{
+			
+			background-image: url("eventsimg.jpg");
+			margin: 0;
+			padding: 0;
+			background-size: cover;
+			height: 100vh;
+			font-style: inherit;
+			 background-repeat: no-repeat;
+  			background-attachment: fixed;
+
+			
+
+		}
+		
+		/*#header
+		{
+			height: 100px;
+			width:250px;
+			align:left;
+			background-color: red;
+		}*/
+
+		#divForm
+		{
+			height: 600px;
+			width: 550px;
+			text-align: center;
+			padding: 20px 20px 20px 20px;
+			background-color: black;
+			opacity: 0.8;
+			float: left;
+			border-radius: 20px;
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			transform:translate(-50%,-50%);
+			
+		}
+		
+		#divForm a
+		{
+			text-decoration: underline;
+			background-color: black;
+			
+
+		}
+		input[type=text],input[type=file],input[type=date]
+		 {
+		 	color: white;
+ 			 width: 100%;
+  			padding: 12px 20px;
+ 			 margin: 8px 0;
+ 			 display: inline-block;
+ 			/* border: 1px solid #ccc;*/
+ 			 border:2px solid #e9eaea;
+ 			 border-radius: 10px;
+  			box-sizing: border-box;
+  			background-color: black;
+  			font-size: 12px;
+
+		}
+		input[type=submit],input[type=reset],input[type=button]
+		{
+			border-radius: 10px;
+
+  			font-size: 12px;
+		}
+
+		
+ 		input[type=submit]:hover,input[type=reset]:hover
+ 		{
+		cursor: pointer;
+		color: red;
+		transition: color 0.75s;
+		}
+		input[type=button]:hover
+ 		{
+		cursor: pointer;
+		color: #6C3483  ;
+		transition: color 0.75s;
+		}
+		textarea
+		{
+			border-radius: 10px;
+		}
+
+
+	</style>
+	
+	
+</head>
+	<div id="header">
+	</div>
+	<div id="divL">
+	</div>
+	<div id="divForm">
+		<form>
+			<font color="white">
+			<h3>ADD YOUR EVENT</h3>
+			<table cellpadding="10" align="center">
+				
+
+				<tr>
+					<td>Company Name</td>
+					<td><input type="text" name="companyName" placeholder="Enter Company Name" required/></td>
+				</tr>
+				<tr>
+					<td>Job Title</td>
+					<td><select>
+						<input type="text" name="eventName" placeholder="enter event" required/></td>
+				</tr>
+				<tr>
+					<td>Description</td>
+					<td><textarea rows="3" cols="50" required/></textarea>
+						</td>
+						<!--<input type="text" name="description" placeholder="enter your description" required/>-->
+				</tr>
+				<tr>
+					<td>Date</td>
+					<td><input type="Date" name="eventName" placeholder="enter event" required/></td>
+				</tr>
+				<tr>
+					<td>Choose Image </td> 
+					<td><input type="file" name="photo" accept="image/*" required /></td>
+					
+				</tr>
+				<tr>
+					<td>Contact No</td> 
+					<td><input type="text" name="ConNo" placeholder="enter 10 digits" pattern="[0-9]{10}" required/></td>
+					
+				</tr>
+
+				<tr>
+					<td><input type="button" name="back" value="back"></td><!--link this button to dashboard-->
+					<td><input type="submit" name="s" value="submit"></td><!--link this button to events page-->
+					<td><input type="reset" name="r"value="reset"></td>
+				</tr>
+				<tr>
+				<!--	<td><a href="http://localhost/b/signup.php"> Register</td>
+					<td><a href=""> Forgot Password</a>
+				</tr>-->
+			</table>
+	</b>
+</font>
+</form>
+	</div>
+	<div id="divR">
+	</div>
+	<div id="footer">
+	</div>
+
+
+</body>
+</html>
+
+		
